@@ -75,6 +75,9 @@ module.exports = {
       },
     },
   },
+  performance: {
+    hints: "warning",
+  },
   resolve: {
     extensions: [".js", ".jsx", ".json"],
     alias: {
