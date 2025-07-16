@@ -50,7 +50,7 @@ module.exports = {
     minimize: true,
     minimizer: [new TerserPlugin()],
     splitChunks: {
-      chunks: "async",
+      chunks: "all",
       minSize: 20000,
       minRemainingSize: 0,
       minChunks: 1,
